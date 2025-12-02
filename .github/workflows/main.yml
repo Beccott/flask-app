@@ -1,7 +1,7 @@
 name: Python App CI/CD
 on:
   push:
-    branches: [ "main" ] # ⬅️ master 대신 main으로 변경하는 것이 일반적입니다. (사용자님의 브랜치 이름은 main이었음)
+    branches: [ "master" ] # ⬅️ master 대신 main으로 변경하는 것이 일반적입니다. (사용자님의 브랜치 이름은 main이었음)
 jobs:
   build-and-push-docker-image:
     runs-on: ubuntu-latest
